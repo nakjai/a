@@ -9,8 +9,9 @@
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
     </head>
-    <body class="antialiased">
-        <h1>Blog name</h1>
+    <body>
+        <h1>Blog Name</h1>
+        <a href="/posts/create">create</a>
         <div class='posts'>
             @foreach($posts as $post)
             <div class='post'>
